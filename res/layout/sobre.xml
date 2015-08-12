@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/aboutbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="22dp"
+        android:text="Curitiba Na Hora"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp"
+             android:layout_marginRight="30dp"
+             android:layout_marginTop="29dp"
+             android:gravity="center"
+             android:text="Receba no seu celular as principais notificações de trânsito, previsão do tempo e serviço da cidade!"
+             android:textColor="#000"
+             android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+         
+         
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >	
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="64dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="64dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:gravity="center"
+            android:layout_width="64dp"
+             android:paddingLeft="10dp"
+            android:layout_height="64dp"
+            android:src="@drawable/twitter" />
+        </LinearLayout>
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

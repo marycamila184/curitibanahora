@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#212121</color>
+    <color name="list_background">#153232</color>
+    <color name="list_background_pressed">#b0b0b0</color>
+    <color name="background_detail">#a3a3a3</color>
+    <color name="list_divider">#a3a3a3</color>
+    <color name="list_background_nav">#ececec</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="color_listview">#f1f1f1</color>
+    <color name="color_listview_item">#f1f1f1</color>
+</resources>
